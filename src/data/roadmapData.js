@@ -1,0 +1,68 @@
+const roadmapData = [
+  {
+    id: 1,
+    title: "AI Engineer Roadmap",
+    description: "Complete path to becoming an AI engineer from scratch.",
+    icon: "🤖",
+    color: "from-purple-500 to-indigo-600",
+    steps: [
+      { title: "Mathematics Fundamentals", subtitle: "Linear Algebra, Calculus, Probability", duration: "4 weeks", completed: true },
+      { title: "Python Programming", subtitle: "Core Python, NumPy, Pandas", duration: "6 weeks", completed: true },
+      { title: "Machine Learning Basics", subtitle: "Supervised & Unsupervised Learning", duration: "8 weeks", completed: false },
+      { title: "Deep Learning", subtitle: "Neural Networks, CNNs, RNNs", duration: "10 weeks", completed: false },
+      { title: "NLP & Computer Vision", subtitle: "Transformers, Object Detection", duration: "8 weeks", completed: false },
+      { title: "MLOps & Deployment", subtitle: "Docker, CI/CD, Model Serving", duration: "6 weeks", completed: false },
+      { title: "Capstone Projects", subtitle: "Real-world AI Applications", duration: "4 weeks", completed: false },
+    ],
+  },
+  {
+    id: 2,
+    title: "Data Scientist Roadmap",
+    description: "Step-by-step guide to mastering data science.",
+    icon: "📊",
+    color: "from-emerald-500 to-teal-600",
+    steps: [
+      { title: "Statistics & Probability", subtitle: "Descriptive & Inferential Statistics", duration: "4 weeks", completed: true },
+      { title: "Python & SQL", subtitle: "Data manipulation & querying", duration: "6 weeks", completed: true },
+      { title: "Data Wrangling", subtitle: "Cleaning, transforming, merging datasets", duration: "4 weeks", completed: false },
+      { title: "Data Visualization", subtitle: "Matplotlib, Seaborn, Tableau", duration: "4 weeks", completed: false },
+      { title: "Machine Learning", subtitle: "Regression, Classification, Clustering", duration: "8 weeks", completed: false },
+      { title: "Big Data Tools", subtitle: "Spark, Hadoop, Cloud Platforms", duration: "6 weeks", completed: false },
+      { title: "Data Science Portfolio", subtitle: "End-to-end Data Projects", duration: "4 weeks", completed: false },
+    ],
+  },
+  {
+    id: 3,
+    title: "Frontend Developer Roadmap",
+    description: "Modern frontend development from basics to advanced.",
+    icon: "🎨",
+    color: "from-sky-500 to-blue-600",
+    steps: [
+      { title: "HTML & CSS", subtitle: "Semantic HTML, Flexbox, Grid", duration: "4 weeks", completed: true },
+      { title: "JavaScript Essentials", subtitle: "ES6+, DOM, Async JS", duration: "6 weeks", completed: true },
+      { title: "React JS", subtitle: "Components, Hooks, State Management", duration: "8 weeks", completed: false },
+      { title: "Tailwind CSS", subtitle: "Utility-first CSS Framework", duration: "3 weeks", completed: false },
+      { title: "Version Control", subtitle: "Git, GitHub, Collaboration", duration: "2 weeks", completed: false },
+      { title: "Build Tools & Testing", subtitle: "Vite, Jest, Cypress", duration: "4 weeks", completed: false },
+      { title: "Full Stack Integration", subtitle: "APIs, Auth, Deployment", duration: "6 weeks", completed: false },
+    ],
+  },
+  {
+    id: 4,
+    title: "Cybersecurity Roadmap",
+    description: "Learn ethical hacking and security fundamentals.",
+    icon: "🔒",
+    color: "from-rose-500 to-red-600",
+    steps: [
+      { title: "Networking Basics", subtitle: "TCP/IP, DNS, Protocols", duration: "4 weeks", completed: true },
+      { title: "Operating Systems", subtitle: "Linux, Windows Security", duration: "4 weeks", completed: true },
+      { title: "Ethical Hacking", subtitle: "Kali Linux, Metasploit", duration: "8 weeks", completed: false },
+      { title: "Web Security", subtitle: "OWASP, XSS, SQL Injection", duration: "6 weeks", completed: false },
+      { title: "Cryptography", subtitle: "Encryption, Hashing, PKI", duration: "4 weeks", completed: false },
+      { title: "Incident Response", subtitle: "Forensics, SIEM, Recovery", duration: "6 weeks", completed: false },
+      { title: "Certifications Prep", subtitle: "CEH, CISSP, CompTIA Security+", duration: "8 weeks", completed: false },
+    ],
+  },
+];
+
+export default roadmapData;
