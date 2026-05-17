@@ -53,7 +53,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-sm text-gray-400 flex items-center justify-center gap-1">
-            Made with <FaHeart className="text-red-500" /> by SkillForge AI Team &copy; {new Date().getFullYear()}
+            Made with  by SkillForge AI Team &copy; {new Date().getFullYear()}
           </p>
         </div>
       </div>

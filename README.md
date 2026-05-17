@@ -17,4 +17,8 @@ A modern AI Learning Platform built using React JS.
 ## Run Project
 
 npm install
+
 npm run dev
+
+## Live view 
+https://skill-forge-ai-ashen.vercel.app/
